@@ -1,0 +1,32 @@
+.card {
+  max-width: 413px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card__image {
+  height: 413px;
+  width: 413px;
+  border-radius: 2%;
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+}
+
+.card__title {
+  padding: 12px 0;
+}
+
+.card__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__like-button {
+  background-image: url(../images/like.svg);
+  width: 1.5em;
+  height: 1.3em;
+  border: none;
+  background-color: transparent;
+  opacity: 40%;
+}
