@@ -1,0 +1,25 @@
+# Project 3
+
+This is my project called Spots.
+
+### Overview
+
+Spots is a small webpage I built that uses:
+
+HTML — for the structure of the page.
+
+CSS — for styling things like the layout, fonts, and colors.
+
+Responsive Design — so it looks good on phones, tablets, and computers. (I used media queries for this.)
+
+**Intro**
+
+It's a simple project but it helped me understand how to build a basic responsive website.
+
+**Figma**
+
+- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+
+**Website**
+You can clone this project using:
+https://github.com/Onyxempire8282/se_project_spots
