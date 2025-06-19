@@ -1,16 +1,27 @@
-# Project 3
+# Project 3: Spots
 
-This is my project called Spots.
+## Overview
 
-### Overview
+Spots is a responsive webpage that I practice front-end development skills.
 
-Spots is a small webpage I built that uses:
+### Description
 
-HTML — for the structure of the page.
+This page displays visual content blocksin a clean, modern layout. Its designed to adapt to different screen sizes using responsive techniques.
 
-CSS — for styling things like the layout, fonts, and colors.
+#### Technologies Used
 
-Responsive Design — so it looks good on phones, tablets, and computers. (I used media queries for this.)
+HTML — for the structural layout of the webpage
+CSS — for styling (fonts, colors, spacing and layouts)
+Responsive Design — achieved with Media Queries
+
+### Features
+
+Mobile- friendly layout
+Adaptive design for multiple screen sizes
+Clean, semantic code structure
+Visual content display with consistent styling
+
+### Screenshots
 
 **Intro**
 

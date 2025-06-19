@@ -3,6 +3,9 @@
   padding-bottom: 40px;
   max-width: 1280px;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .cards__list {
