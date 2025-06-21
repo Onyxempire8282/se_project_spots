@@ -23,6 +23,8 @@ Visual content display with consistent styling
 
 ### Screenshots
 
+<img src="images/screenshot.png" alt="App Screenshot" width="600"/>
+
 **Intro**
 
 It's a simple project but it helped me understand how to build a basic responsive website.
