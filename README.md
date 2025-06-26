@@ -35,4 +35,4 @@ It's a simple project but it helped me understand how to build a basic responsiv
 
 **Website**
 You can clone this project using:
-https://github.com/Onyxempire8282/se_project_spots
+https://onyxempire8282.github.io/se_project_spots/
