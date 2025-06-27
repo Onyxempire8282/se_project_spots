@@ -25,12 +25,6 @@ Visual content display with consistent styling
 
 <img src="images/screenshot.png" alt="App Screenshot" width="600"/>
 
-### Project Walkthrough Video
-
-Here is the walkthrough video for the project:
-
-https://drive.google.com/file/d/141LomcFBG1D408iuhxHcQY3hUBUK5uZk/view?usp=share_link
-
 **Intro**
 
 It's a simple project but it helped me understand how to build a basic responsive website.
