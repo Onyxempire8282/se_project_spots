@@ -1,3 +1,35 @@
+const initialCards = [{
+
+    name: "Val Thorens",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg"},
+
+     {
+    name: "Restaurant terrace",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/2-photo-by-ceiline-from-pexels.jpg"},
+
+     {
+    name: "An outdoor cafe",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/3-photo-by-tubanur-dogan-from-pexels.jpg"},
+
+     {
+    name: "A very long bridge, over the forest and through the trees",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/4-photo-by-maurice-laschet-from-pexels.jpg"},
+
+     {
+    name: "Tunnel with morning light",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/5-photo-by-moritz-feldmann-from-pexels.jpg"},
+
+     {
+    name: "Mountain house",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/6-photo-by-moritz-feldmann-from-pexels.jpg"},
+
+  
+    
+  ];
+
+
+
+
 const editProfileBtn = document.querySelector(".profile__edit-btn");
 const editProfileModal = document.querySelector("#edit-profile-modal");
 const editProfileClseBtn = editProfileModal.querySelector(".modal__close-btn");
@@ -58,4 +90,30 @@ editNewPostForm.addEventListener("submit", function (evt) {
   console.log("Caption:", editPostCaption.value);
   
   closeModal(newPostModal);
+});
+
+initialCards.forEach(function (item) {
+  console.log("Val Thorens", item.name);
+  console.log("https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg:", item.link);
+});
+
+initialCards.forEach(function (item) {
+  console.log("Restaurant terrace:", item.name);
+  console.log("https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/2-photo-by-ceiline-from-pexels.jpg:", item.link);
+
+});initialCards.forEach(function (item) {
+  console.log("An outdoor cafe:", item.name);
+  console.log("https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/3-photo-by-tubanur-dogan-from-pexels.jpg:", item.link);
+
+});initialCards.forEach(function (item) {
+  console.log("A very long bridge, over the forest and through the trees:", item.name);
+  console.log("https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/4-photo-by-maurice-laschet-from-pexels.jpg:", item.link);
+
+});initialCards.forEach(function (item) {
+  console.log("Tunnel with morning light:", item.name);
+  console.log("https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/5-photo-by-moritz-feldmann-from-pexels.jpg:", item.link);
+
+});initialCards.forEach(function (item) {
+  console.log("Mountain house:", item.name);
+  console.log("https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/6-photo-by-moritz-feldmann-from-pexels.jpg:", item.link);
 });
