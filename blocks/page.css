@@ -12,3 +12,12 @@
   box-sizing: border-box;
   position: relative;
 }
+
+.page__content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
