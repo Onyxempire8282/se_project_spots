@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -41,7 +41,11 @@
                   <div class="card__image-container">
                     <img class="card__image" src="#" alt="" />
                     <button type="button" class="card__delete-button">
-                      <img class="card__delete-icon" src="./images/delete-button.svg" alt="Trash can" />
+                      <img
+                        class="card__delete-icon"
+                        src="./images/delete-button.svg"
+                        alt="Trash can"
+                      />
                     </button>
                   </div>
                   <div class="card__content">
@@ -58,7 +62,9 @@
 
           <div class="modal" id="edit-profile-modal">
             <div class="modal__container">
-              <button type="button" class="modal__close-btn"><img src="./images/close.svg" alt="Close" /></button>
+              <button type="button" class="modal__close-btn">
+                <img src="./images/close.svg" alt="Close" />
+              </button>
               <h2 class="modal__title">Edit Profile</h2>
               <form class="modal__form">
                 <label for="profile-name-input" class="modal__label">
@@ -87,7 +93,9 @@
           </div>
           <div class="modal" id="new-post-modal">
             <div class="modal__container">
-              <button type="button" class="modal__close-btn"><img src="./images/close.svg" alt="Close" /></button>
+              <button type="button" class="modal__close-btn">
+                <img src="./images/close.svg" alt="Close" />
+              </button>
               <h2 class="modal__title">New Post</h2>
               <form class="modal__form">
                 <label for="card-image-input" class="modal__label">
@@ -114,16 +122,18 @@
               </form>
             </div>
           </div>
-        <div class="modal modal_type_preview" id="preview-image-modal">
-    <div class="modal__preview-container">
-      <img class="modal__preview-image" src="#" alt="" />
-      <h2 class="modal__preview-caption"></h2>
-    </div>
-    <button type="button" class="modal__close-btn modal__close-btn_type_preview">
-      <img src="./images/close.svg" alt="Close" />
-    </button>
-  </div>
-  </div>
+          <div class="modal modal_type_preview" id="preview-image-modal">
+            <div class="modal__preview-container">
+              <img class="modal__preview-image" src="#" alt="" />
+              <h2 class="modal__preview-caption"></h2>
+            </div>
+            <button
+              type="button"
+              class="modal__close-btn modal__close-btn_type_preview"
+            >
+              <img src="./images/close.svg" alt="Close" />
+            </button>
+          </div>
         </main>
       </div>
     </div>
